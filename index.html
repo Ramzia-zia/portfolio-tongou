@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - TONGOU Yempouki</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+   <!-- NAVIGATION -->
+<nav>
+    <div class="nav-logo">TY</div>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul id="nav-menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+    <!-- SECTION ACCUEIL -->
+    <section id="accueil">
+        <div class="hero-content">
+            <div class="hero-photo">
+                <div class="photo-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <h1>TONGOU <span>Yempouki</span></h1>
+            <h2>Ingénieur Civil</h2>
+            <p class="slogan">" Viser la perfection même si elle n'est pas de ce monde "</p>
+            <a href="#contact" class="btn">Me contacter</a>
+        </div>
+    </section>
+
+    <!-- SECTION À PROPOS -->
+    <section id="apropos">
+        <h2 class="section-title">À Propos</h2>
+        <div class="apropos-content">
+            <div class="apropos-text">
+                <p>
+                    Je suis <strong>TONGOU Yempouki</strong>, 24 ans, titulaire d'un <strong>Master en Ingénierie Civil</strong>.
+                    J'interviens à la <strong>Présidence du Conseil</strong> comme Ingénieur sur les 
+                    <strong>Projets Nationaux de la Banque Mondiale</strong> depuis Octobre 2024.
+                </p>
+                <p>
+                    Je suis spécialisé dans le <strong>calcul des ouvrages de génie civil</strong>, 
+                    en particulier les bâtiments. Mon objectif est de concevoir des structures solides, 
+                    fiables et conformes aux normes les plus exigeantes.
+                </p>
+                <div class="info-cards">
+                    <div class="card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Master en Ingénierie Civil</span>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Présidence du Conseil — Banque Mondiale</span>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-calendar"></i>
+                        <span>En poste depuis Octobre 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION COMPÉTENCES -->
+    <section id="competences">
+        <h2 class="section-title">Logiciels & Outils</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-drafting-compass"></i>
+                <span>AutoCAD</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-robot"></i>
+                <span>Robot</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-cube"></i>
+                <span>Revit</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-layer-group"></i>
+                <span>Advance Steel</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-bridge"></i>
+                <span>ACOBRI</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-mountain"></i>
+                <span>Autodesk Civil 3D</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+            <p>Vous avez un projet ? N'hésitez pas à me contacter.</p>
+           <form class="contact-form" action="https://formspree.io/f/mjgepjyr" method="POST">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                 <input type="email" name="email" placeholder="Votre email" required>
+                 <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 TONGOU Yempouki — Ingénieur Civil</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
